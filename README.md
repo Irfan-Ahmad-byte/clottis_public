@@ -1,15 +1,11 @@
 # CLOTTIS — Community-Powered SOL Staking Platform
 
 <div align="center">
-  <img src="clottis.png" alt="CLOTTIS Logo" width="200"/>
+  <img src="https://clottis.net/assets/Logo.jpg" alt="CLOTTIS Logo" width="200"/>
   
   **Stake Together. Earn Together. Locally.**
   
-  Pakistan's first Urdu-friendly, low-barrier SOL staking platform for the South Asian community.
-  
-  [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  Pakistan's first User-friendly, low-barrier SOL staking platform for the South Asian community.
 </div>
 
 ## 🌟 About CLOTTIS
