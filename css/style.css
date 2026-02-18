@@ -70,6 +70,12 @@ body {
     letter-spacing: -0.5px;
 }
 
+.logo-img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
 .nav-menu {
     display: flex;
     gap: 2rem;
