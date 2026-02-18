@@ -1,228 +1,233 @@
-# CLOTTIS — Community-Powered SOL Staking Platform
+# Clottis - Professional DevOps Solutions
 
-<div align="center">
-  <img src="https://clottis.net/assets/Logo.jpg" alt="CLOTTIS Logo" width="200"/>
-  
-  **Stake Together. Earn Together. Locally.**
-  
-  Pakistan's first User-friendly, low-barrier SOL staking platform for the South Asian community.
-</div>
+![Clottis Banner](https://img.shields.io/badge/DevOps-Professional%20Services-00d4ff?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge)
 
-## 🌟 About CLOTTIS
+A modern, professional landing page for Clottis DevOps services, featuring cost optimization, infrastructure planning, and complete development-to-production assistance.
 
-CLOTTIS is Pakistan's first community-powered SOL staking platform designed specifically for the South Asian crypto community. Our mission is to make Solana staking accessible, secure, and profitable for everyone, regardless of their technical background.
+## 🚀 Live Demo
 
-### What is SOL Staking?
-Solana staking is a way to earn passive income by participating in the Solana blockchain's security and consensus mechanism. When you stake your SOL tokens, you help secure the network and earn rewards in return.
+**GitHub Pages URL:** `https://your-username.github.io/clottis_web/`
 
-### Key Highlights
-- **🌍 Community-Focused**: Designed specifically for the South Asian crypto community
-- **🔒 Non-Custodial**: Your SOL stays in your wallet - you just delegate it
-- **📱 Mobile-First**: Staking happens through our mobile app for convenience
-- **💰 Low Barrier Entry**: Start staking with just ₨500
-- **📊 Real-time Tracking**: Live updates on rewards and validator performance
-- **🌐 Urdu-Friendly**: Localized experience for Pakistani users
+## ✨ Features
 
-## 📱 How CLOTTIS Works
+- **Hero Carousel**: 4 rotating slides highlighting why human-led DevOps wins in the AI era
+- **Services Section**: Comprehensive overview of DevOps offerings
+- **Why Choose Clottis**: 6 compelling reasons with professional icons
+- **Statistics**: Real industry data from Gartner, DORA, Deloitte reports
+- **Blog Section**: 4 detailed articles with credible references
+- **Responsive Design**: Mobile-first approach, works on all devices
+- **Professional Color Scheme**: 60-30-10 rule (#1a1f3a, #f8f9fa, #00d4ff)
+- **Call-to-Action**: WhatsApp and Calendly integration
 
-### 1. **Download the Mobile App**
-- Get the CLOTTIS app from your device's app store
-- Create your account securely
-- Complete KYC verification (if required)
+## 📁 Project Structure
 
-### 2. **Connect Your Wallet**
-- Link your Solana wallet (Phantom, Solflare, etc.)
-- Import your existing SOL tokens
-- Or purchase SOL directly through the app
+```
+clottis_web/
+├── index.html              # Main landing page
+├── css/
+│   ├── style.css          # Main styles with 60-30-10 color scheme
+│   └── blog.css           # Blog-specific styles
+├── js/
+│   └── main.js            # Carousel, smooth scroll, mobile menu
+├── blog/
+│   ├── index.html         # Blog listing page
+│   ├── hidden-costs-diy-devops.html
+│   ├── cloud-misconfiguration-case-studies.html
+│   ├── devops-roi-professional-services.html
+│   └── ai-vs-human-devops.html
+├── assets/
+│   ├── images/            # (Add your images here)
+│   └── icons/             # (Add custom icons here)
+└── README.md
+```
 
-### 3. **Start Staking**
-- Choose your staking amount (minimum ₨500)
-- Select your preferred validator
-- Confirm your staking transaction
+## 🎨 Design System
 
-### 4. **Earn Rewards**
-- Watch your rewards grow in real-time
-- Track your APY and performance
-- Withdraw rewards anytime
+### Color Scheme (60-30-10 Rule)
+- **Primary (60%)**: `#1a1f3a` - Deep Navy Blue (trust, professionalism)
+- **Secondary (30%)**: `#f8f9fa` - Light Gray (clean, modern)
+- **Accent (10%)**: `#00d4ff` - Cyan Blue (technology, innovation)
 
-## ✨ Platform Features
+### Typography
+- **Font**: Inter (Google Fonts)
+- **Headings**: 700-800 weight
+- **Body**: 400-500 weight
 
-### Core Features
-- **Secure Staking**: Non-custodial staking with your SOL remaining in your wallet
-- **Instant Tracking**: Real-time updates on staking rewards and ROI
-- **Low Fees**: Competitive validator fees to maximize earnings
-- **One-Click Withdrawals**: Easy unstaking and withdrawal process
-- **Multi-Wallet Support**: Compatible with Phantom, Solflare, Ledger, and more
-- **Cross-Platform**: Seamless experience across all devices
+### Icons
+All icons are inline SVG (no external dependencies) based on Heroicons design system.
 
-### User Experience
-- **Dark/Light Theme**: Toggle between themes for comfortable viewing
-- **Responsive Design**: Optimized for all screen sizes
-- **Accessibility**: WCAG compliant with keyboard navigation support
-- **Smooth Animations**: Engaging micro-interactions and transitions
-- **Live Statistics**: Real-time display of APY, staked amounts, and uptime
+## 📝 Blog Posts Included
 
-## 🎯 Why Choose CLOTTIS?
+1. **The Hidden Costs of DIY DevOps with AI Tools**
+   - 69% cloud cost overruns statistic
+   - Real examples of AI tool limitations
+   - Prevention strategies
 
-### For Beginners
-- **Simple Interface**: No technical knowledge required
-- **Step-by-Step Guide**: Clear instructions for every action
-- **Local Support**: Customer service in Urdu and English
-- **Educational Content**: Learn about crypto and staking
+2. **Real Cost of Cloud Misconfigurations: Case Studies**
+   - $4.45M average breach cost
+   - 3 detailed real-world scenarios
+   - Prevention checklist
 
-### For Experienced Users
-- **Advanced Analytics**: Detailed performance metrics
-- **Validator Selection**: Choose from multiple validators
-- **Portfolio Management**: Track multiple staking positions
-- **API Access**: Integrate with your existing tools
+3. **DevOps ROI: Why Professional Services Pay for Themselves**
+   - 340% ROI over 3 years
+   - Cost-benefit analysis
+   - Client success stories
 
-### For the Community
-- **Local Focus**: Designed for South Asian users
-- **Cultural Sensitivity**: Respects local customs and preferences
-- **Community Events**: Regular meetups and educational sessions
-- **Rewards Program**: Earn additional rewards for community participation
+4. **AI in DevOps: Where It Helps and Where Humans Win**
+   - 91% AI tool adoption vs 87% human preference for critical decisions
+   - DORA 2025 insights
+   - Hybrid approach framework
 
-## 📊 Staking Benefits
+## 🌐 Deploying to GitHub Pages
 
-### Earning Potential
-- **8.5% Average APY**: Competitive returns on your SOL
-- **Compound Interest**: Reinvest rewards for exponential growth
-- **Flexible Terms**: Stake for as long or short as you want
-- **No Lock-in Period**: Unstake anytime without penalties
+### Step 1: Initialize Git Repository
 
-### Security Features
-- **Non-Custodial**: You always control your private keys
-- **Audited Smart Contracts**: Regular security audits
-- **Insurance Coverage**: Protection against technical failures
-- **24/7 Monitoring**: Continuous network monitoring
+```bash
+cd /home/irfan/Documents/backend_projects/clottis_web
+git init
+git add .
+git commit -m "Initial commit: Clottis professional landing page"
+```
 
-## ❓ Frequently Asked Questions
+### Step 2: Create GitHub Repository
 
-### General Questions
+1. Go to [GitHub](https://github.com) and create a new repository
+2. Name it `clottis_web` (or any name you prefer)
+3. **Do NOT** initialize with README, .gitignore, or license (we already have files)
 
-**Q: What is Solana (SOL)?**
-A: Solana is a high-performance blockchain platform that enables fast, secure, and low-cost transactions. SOL is the native cryptocurrency of the Solana network.
+### Step 3: Push to GitHub
 
-**Q: How does staking work?**
-A: When you stake SOL, you delegate your tokens to a validator who helps secure the network. In return, you earn rewards based on the validator's performance and your staked amount.
+```bash
+# Replace 'your-username' with your actual GitHub username
+git remote add origin https://github.com/your-username/clottis_web.git
+git branch -M main
+git push -u origin main
+```
 
-**Q: Is staking safe?**
-A: Yes, staking is generally safe. CLOTTIS uses non-custodial staking, meaning your SOL never leaves your wallet. You only delegate the staking rights.
+### Step 4: Enable GitHub Pages
 
-### Technical Questions
+1. Go to your repository on GitHub
+2. Click **Settings** → **Pages** (in left sidebar)
+3. Under **Source**, select:
+   - Branch: `main`
+   - Folder: `/ (root)`
+4. Click **Save**
+5. Wait 2-3 minutes for deployment
+6. Your site will be live at: `https://your-username.github.io/clottis_web/`
 
-**Q: What's the minimum amount to stake?**
-A: You can start staking with just ₨500 worth of SOL.
+### Step 5: Custom Domain (Optional)
 
-**Q: How often do I receive rewards?**
-A: Rewards are typically distributed every epoch (approximately 2-3 days on Solana).
+If you have a custom domain:
 
-**Q: Can I unstake anytime?**
-A: Yes, you can unstake your SOL at any time without penalties.
+1. Create a file named `CNAME` in the root directory:
+   ```bash
+   echo "www.clottis.com" > CNAME
+   git add CNAME
+   git commit -m "Add custom domain"
+   git push
+   ```
 
-**Q: What happens if the validator goes offline?**
-A: If a validator goes offline, you may earn fewer rewards temporarily, but your SOL remains safe and can be redelegated.
+2. Update your domain's DNS settings:
+   ```
+   Type: CNAME
+   Name: www
+   Value: your-username.github.io
+   ```
 
-### Platform Questions
+3. In GitHub Pages settings, enter your custom domain and enable HTTPS
 
-**Q: Is CLOTTIS available in Pakistan?**
-A: Yes, CLOTTIS is specifically designed for Pakistani users and is fully compliant with local regulations.
+## 🔧 Customization Required
 
-**Q: Do I need to complete KYC?**
-A: KYC requirements depend on your staking amount and local regulations. We'll guide you through the process if needed.
+Before deploying, update these placeholders:
 
-**Q: What wallets are supported?**
-A: CLOTTIS supports all major Solana wallets including Phantom, Solflare, Sollet, and hardware wallets like Ledger.
+### 1. WhatsApp Number
+Replace `92XXXXXXXXXX` in all files with your actual WhatsApp number:
+- `index.html` (2 occurrences)
+- All blog post files (4 files)
+- `blog/index.html`
 
-**Q: How do I contact support?**
-A: You can reach our support team through the app, email, or WhatsApp. We provide support in both Urdu and English.
+**Find and replace:** `92XXXXXXXXXX` → Your number (format: country code + number, e.g., `923001234567`)
 
-## 📱 Getting Started
+### 2. Calendly Link
+Replace `https://calendly.com/your-link` with your actual Calendly scheduling link:
+- `index.html` (2 occurrences)
+- All blog post files (4 files)
+- `blog/index.html`
 
-### Prerequisites
-- A smartphone (iOS or Android)
-- A Solana wallet (Phantom, Solflare, etc.)
-- SOL tokens for staking
-- Stable internet connection
+### 3. Email Address (Optional)
+Replace `info@clottis.com` with your actual email in:
+- `index.html` (footer)
+- `blog/index.html` (footer)
 
-### Download & Setup
+### Quick Replace Commands:
 
-1. **Download the App**
-   - iOS: Available on App Store
-   - Android: Available on Google Play Store
+```bash
+# Replace WhatsApp number (Linux/Mac)
+find . -type f -name "*.html" -exec sed -i 's/92XXXXXXXXXX/923001234567/g' {} +
 
-2. **Create Account**
-   - Sign up with your email or phone number
-   - Complete profile setup
-   - Verify your identity if required
+# Replace Calendly link
+find . -type f -name "*.html" -exec sed -i 's|calendly.com/your-link|calendly.com/clottis/consultation|g' {} +
 
-3. **Connect Wallet**
-   - Link your existing Solana wallet
-   - Or create a new wallet through the app
+# Replace email
+find . -type f -name "*.html" -exec sed -i 's/info@clottis.com/your-email@clottis.com/g' {} +
+```
 
-4. **Start Staking**
-   - Choose your staking amount
-   - Select validator preferences
-   - Confirm and start earning
+## 📊 Blog Statistics & References
 
-## 🛠️ Technology
+All statistics in the blog posts are from credible sources:
 
-### Mobile App
-- **Platform**: Native iOS and Android apps
-- **Security**: End-to-end encryption
-- **Performance**: Optimized for smooth user experience
-- **Offline Support**: Basic functionality without internet
+- **Gartner** (Cloud spending and cost reports)
+- **DORA/Google Cloud** (State of DevOps Reports 2024-2025)
+- **Deloitte** (FinOps predictions and cloud spending)
+- **IBM Security** (Cost of Data Breach Report)
+- **Flexera** (State of the Cloud Report)
+- **McKinsey** (Developer productivity research)
+- **Stack Overflow** (Developer Survey)
+- **GitLab** (DevSecOps Survey)
 
-### Blockchain Integration
-- **Network**: Solana Mainnet
-- **Validators**: Multiple trusted validators
-- **Smart Contracts**: Audited and secure
-- **APIs**: Real-time blockchain data
+All reference links are included in each blog post.
 
-## 📞 Support & Contact
+## 🎯 SEO Optimization
 
-### Customer Support
-- **In-App Chat**: 24/7 support through the app
-- **Email**: support@clottis.com
-- **WhatsApp**: +92 XXX XXX XXXX
-- **Office Hours**: 9 AM - 6 PM PKT
+The site includes:
+- Semantic HTML5 structure
+- Meta descriptions and keywords
+- Open Graph tags for social sharing
+- Fast loading (no heavy dependencies)
+- Mobile-responsive design
+- Proper heading hierarchy
 
-### Community
-- **Telegram**: @clottis_community
-- **Discord**: CLOTTIS Official
-- **Twitter**: @clottis_app
-- **YouTube**: CLOTTIS Tutorials
+## 🔄 Future Enhancements
 
-## 📄 Legal & Compliance
+Optional improvements you can add later:
+- Add actual images/photos to replace gradient placeholders
+- Integrate real newsletter service (Mailchimp, ConvertKit)
+- Add Google Analytics or privacy-friendly alternative (Plausible)
+- Implement dark mode toggle
+- Add testimonials section
+- Create downloadable resources (cost calculators, checklists)
+- Add LinkedIn/Twitter social links
 
-### Terms of Service
-- [Terms of Service](terms-of-service.html)
-- [Privacy Policy](privacy-policy.html)
-- [Staking Guide](staking-guide.html)
+## 📱 Browser Compatibility
 
-### Regulatory Compliance
-- **SECP Registration**: Registered with Securities and Exchange Commission of Pakistan
-- **AML/KYC**: Anti-money laundering and know-your-customer compliance
-- **Data Protection**: GDPR-compliant data handling
-- **Local Laws**: Full compliance with Pakistani regulations
+Tested and compatible with:
+- Chrome/Edge (latest)
+- Firefox (latest)
+- Safari (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🎉 Join the CLOTTIS Community
+## 📄 License
 
-### Why Join Us?
-- **Earn Passive Income**: Start earning from day one
-- **Learn Crypto**: Educational content and workshops
-- **Community Events**: Regular meetups and networking
-- **Early Access**: Be the first to try new features
-- **Rewards Program**: Earn extra rewards for participation
+© 2026 Clottis. All rights reserved.
 
-### Get Started Today
-Ready to start your staking journey? Download the CLOTTIS app and join thousands of users who are already earning passive income through SOL staking.
+## 🤝 Support
+
+For questions or support, contact via:
+- WhatsApp: [Your Number]
+- Email: info@clottis.com
+- Schedule: [Your Calendly Link]
 
 ---
 
-<div align="center">
-  <p>Made with ❤️ for the South Asian crypto community</p>
-  <p><strong>CLOTTIS</strong> - Empowering local crypto adoption</p>
-  
-  <p><em>This repository contains the public introduction and documentation for the CLOTTIS platform. The actual staking functionality is available through our mobile app.</em></p>
-</div>
+**Built with** ❤️ **for professional DevOps services**
