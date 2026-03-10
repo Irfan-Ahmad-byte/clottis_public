@@ -1,23 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Clottis - Professional DevOps solutions with custom infrastructure planning, cost optimization, and complete development to production assistance.">
-    <meta name="keywords" content="DevOps services, cloud infrastructure, cost optimization, CI/CD, Kubernetes, AWS, Azure, DevOps consulting">
-    <meta property="og:title" content="Clottis - Professional DevOps Solutions">
-    <meta property="og:description" content="Strategic DevOps planning that considers every dollar. From development to production, we've got you covered.">
+    <meta name="description"
+        content="Clottis — Expert DevOps consulting: AWS, Tencent Cloud, Oracle, DigitalOcean, GitHub Actions. AI model deployment, CI/CD setup, cloud cost optimization (40-60% savings). Free consultation for startups, agencies & freelancers.">
+    <meta name="keywords"
+        content="DevOps consulting, cloud infrastructure, cost optimization, CI/CD pipeline, Kubernetes, AWS DevOps, DigitalOcean setup, Oracle Cloud, Tencent Cloud, AI model deployment, GitHub Actions, DevOps for startups, FinOps expert, Docker containerization">
+    <meta name="author" content="Clottis">
+    <link rel="canonical" href="https://clottis.net/">
+
+    <meta property="og:title" content="Clottis — Expert DevOps, Cloud & AI Deployment Services">
+    <meta property="og:description"
+        content="Cut cloud costs 40-60%. Expert DevOps on AWS, Oracle, Tencent & more. AI model deployment, CI/CD, full dev-to-prod setup. Book a free consultation.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="assets/logo.png">
-    <title>Clottis - Professional DevOps Solutions | Infrastructure Planning & Cost Optimization</title>
-    
+    <meta property="og:url" content="https://clottis.net/">
+    <meta property="og:image" content="https://clottis.net/assets/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clottis — Expert DevOps & AI Deployment Services">
+    <meta name="twitter:description"
+        content="Cut cloud costs 40-60%. DevOps on AWS, Tencent, Oracle, DigitalOcean. AI model deployment. Free consultation.">
+    <meta name="twitter:image" content="https://clottis.net/assets/logo.png">
+
+    <title>Clottis — Expert DevOps, Cloud Infrastructure & AI Deployment | AWS, Oracle, Tencent, DigitalOcean</title>
+
+    <!-- JSON-LD Structured Data for SEO & GEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Clottis",
+          "url": "https://clottis.net",
+          "logo": "https://clottis.net/assets/logo.png",
+          "description": "Expert DevOps consulting firm specializing in cloud infrastructure, AI model deployment, CI/CD pipelines, and cost optimization on AWS, Tencent Cloud, Oracle Cloud, DigitalOcean, and GitHub Actions.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+92-303-6858751",
+            "contactType": "customer service",
+            "availableLanguage": ["English", "Urdu"]
+          },
+          "sameAs": []
+        },
+        {
+          "@type": "ProfessionalService",
+          "name": "Clottis DevOps Consulting",
+          "url": "https://clottis.net",
+          "description": "Professional DevOps services for startups, agencies, and enterprises.",
+          "serviceType": "DevOps Consulting",
+          "areaServed": "Worldwide",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "DevOps Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Infrastructure Planning", "description": "Architecture design & consultation, technology stack selection, scalability planning, and security compliance mapping." } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cloud Cost Optimization (FinOps)", "description": "Reduce cloud bills by 40-60% through right-sizing, reserved instances strategy, and multi-cloud cost comparison." } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CI/CD Pipeline Setup", "description": "Automated CI/CD pipelines using GitHub Actions, GitLab CI, container orchestration, and performance monitoring." } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Model Deployment", "description": "End-to-end deployment of AI and machine learning models on AWS, Oracle Cloud, DigitalOcean, and Tencent Cloud." } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dev to Production Setup", "description": "Complete dev, staging, and production environment setup with monitoring, alerting, and incident response planning." } }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Why hire a DevOps expert instead of using AI tools like ChatGPT?",
+              "acceptedAnswer": { "@type": "Answer", "text": "AI tools generate generic configurations but cannot account for your business's budget constraints, compliance needs, or growth trajectory. A DevOps expert like Clottis designs infrastructure specific to your context — and optimizes it to save 40-60% on cloud costs." }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Clottis work with small budgets, startups, or freelancers?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Clottis works with teams of all sizes — from solo freelancers and small agencies with minimal projects to large enterprises. We have a Starter package for small-to-medium projects and offer custom pricing based on project complexity and scope." }
+            },
+            {
+              "@type": "Question",
+              "name": "Which cloud platforms does Clottis specialize in?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Clottis specializes in AWS (Amazon Web Services), Tencent Cloud, Oracle Cloud Infrastructure (OCI), DigitalOcean, and GitHub Actions for CI/CD. We select the best platform based on your project's cost, performance, and regional requirements." }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Clottis help with AI model deployment?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Clottis provides end-to-end AI model deployment services — from containerizing your model to setting up scalable inference infrastructure on AWS, Oracle Cloud, DigitalOcean, or Tencent Cloud." }
+            },
+            {
+              "@type": "Question",
+              "name": "How much can Clottis reduce my cloud bill?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Clients typically see 40-60% reduction in cloud costs through right-sizing, eliminating unused resources, scheduling dev environments, and using reserved/spot instances strategically. One client reduced their monthly AWS bill from $4,200 to $1,600." }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does a DevOps setup take?",
+              "acceptedAnswer": { "@type": "Answer", "text": "A Starter package typically takes 1-2 weeks. A Professional multi-environment setup (Dev, Staging, Production) takes 2-4 weeks. Enterprise or custom engagements are scoped after a discovery call. Book a free consultation to get a precise estimate." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
     <link rel="icon" type="image/png" href="assets/icon.png">
     <link rel="apple-touch-icon" href="assets/icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -52,17 +145,21 @@
                     <div class="hero-content">
                         <div class="hero-text">
                             <span class="hero-badge">The Human Advantage</span>
-                            <h1 class="hero-title">Why Human-Led DevOps Still Wins in the AI Era</h1>
-                            <p class="hero-subtitle">AI tools automate tasks, but strategic infrastructure planning requires human insight, business context, and cost-conscious decision making.</p>
+                            <h1 class="hero-title">Stop Burning Cloud Budget. Expert DevOps That Pays for Itself.</h1>
+                            <p class="hero-subtitle">AI tools write configs — they can't fix your $4,200/month server
+                                bill. Human-led DevOps means strategic decisions that save 40-60% and scale with your
+                                business.</p>
                             <div class="hero-stat">
                                 <div class="stat-number">78%</div>
-                                <div class="stat-text">of companies using AI tools still require DevOps experts for infrastructure decisions</div>
+                                <div class="stat-text">of companies using AI tools still require DevOps experts for
+                                    infrastructure decisions</div>
                             </div>
                             <div class="hero-buttons">
                                 <a href="#contact" class="btn btn-primary">Schedule Free Consultation</a>
                                 <a href="https://wa.me/923036858751" class="btn btn-secondary" target="_blank">
                                     <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                        <path
+                                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                                     </svg>
                                     WhatsApp Us
                                 </a>
@@ -71,14 +168,15 @@
                         <div class="hero-visual">
                             <div class="hero-icon">
                                 <svg width="400" height="400" viewBox="0 0 400 400" fill="none">
-                                    <circle cx="200" cy="200" r="150" fill="#00d4ff" opacity="0.1"/>
-                                    <circle cx="200" cy="200" r="120" fill="#00d4ff" opacity="0.2"/>
-                                    <path d="M200 100 L250 150 L250 200 L200 250 L150 200 L150 150 Z" fill="#00d4ff" opacity="0.8"/>
-                                    <circle cx="200" cy="150" r="15" fill="#1a1f3a"/>
-                                    <circle cx="225" cy="175" r="15" fill="#1a1f3a"/>
-                                    <circle cx="225" cy="225" r="15" fill="#1a1f3a"/>
-                                    <circle cx="175" cy="225" r="15" fill="#1a1f3a"/>
-                                    <circle cx="175" cy="175" r="15" fill="#1a1f3a"/>
+                                    <circle cx="200" cy="200" r="150" fill="#00d4ff" opacity="0.1" />
+                                    <circle cx="200" cy="200" r="120" fill="#00d4ff" opacity="0.2" />
+                                    <path d="M200 100 L250 150 L250 200 L200 250 L150 200 L150 150 Z" fill="#00d4ff"
+                                        opacity="0.8" />
+                                    <circle cx="200" cy="150" r="15" fill="#1a1f3a" />
+                                    <circle cx="225" cy="175" r="15" fill="#1a1f3a" />
+                                    <circle cx="225" cy="225" r="15" fill="#1a1f3a" />
+                                    <circle cx="175" cy="225" r="15" fill="#1a1f3a" />
+                                    <circle cx="175" cy="175" r="15" fill="#1a1f3a" />
                                 </svg>
                             </div>
                         </div>
@@ -92,11 +190,14 @@
                     <div class="hero-content">
                         <div class="hero-text">
                             <span class="hero-badge">Tailored Solutions</span>
-                            <h1 class="hero-title">Generic AI Solutions vs. Tailored Infrastructure</h1>
-                            <p class="hero-subtitle">While AI offers templates, we design infrastructure specific to your business needs, budget, and growth trajectory.</p>
+                            <h1 class="hero-title">Your Business Is Unique. Your Infrastructure Should Be Too.</h1>
+                            <p class="hero-subtitle">AI templates cause cloud overspend. We design infrastructure around
+                                your actual needs, stack, and budget — not generic defaults that cost you extra every
+                                month.</p>
                             <div class="hero-stat">
                                 <div class="stat-number">40-60%</div>
-                                <div class="stat-text">Average cloud cost reduction through strategic planning and optimization</div>
+                                <div class="stat-text">Average cloud cost reduction through strategic planning and
+                                    optimization</div>
                             </div>
                             <div class="hero-buttons">
                                 <a href="#contact" class="btn btn-primary">Get Custom Plan</a>
@@ -126,25 +227,31 @@
                     <div class="hero-content">
                         <div class="hero-text">
                             <span class="hero-badge">Cost Intelligence</span>
-                            <h1 class="hero-title">Cost Optimization That AI Can't Replicate</h1>
-                            <p class="hero-subtitle">We analyze your specific workflow to reduce cloud costs through strategic planning, not just automation.</p>
+                            <h1 class="hero-title">Get Back 40–60% of Your Cloud Costs. Guaranteed Strategy.</h1>
+                            <p class="hero-subtitle">We audit your infrastructure, right-size resources, and eliminate
+                                cloud waste — using data, not guesswork. Our clients save thousands every month.</p>
                             <div class="hero-stat">
                                 <div class="stat-number">27%</div>
-                                <div class="stat-text">of cloud spending is wasted across organizations - Let us help you reclaim it</div>
+                                <div class="stat-text">of cloud spending is wasted across organizations - Let us help
+                                    you reclaim it</div>
                             </div>
                             <div class="hero-buttons">
                                 <a href="#contact" class="btn btn-primary">Start Saving Today</a>
-                                <a href="blog/devops-roi-professional-services.html" class="btn btn-secondary">Read Case Studies</a>
+                                <a href="blog/devops-roi-professional-services.html" class="btn btn-secondary">Read Case
+                                    Studies</a>
                             </div>
                         </div>
                         <div class="hero-visual">
                             <div class="cost-chart">
                                 <svg width="350" height="300" viewBox="0 0 350 300">
-                                    <rect x="50" y="150" width="80" height="120" fill="#ff6b6b" opacity="0.8"/>
-                                    <text x="90" y="285" text-anchor="middle" fill="#1a1f3a" font-size="14">Before</text>
-                                    <rect x="220" y="220" width="80" height="50" fill="#00d4ff" opacity="0.8"/>
-                                    <text x="260" y="285" text-anchor="middle" fill="#1a1f3a" font-size="14">After</text>
-                                    <text x="175" y="50" text-anchor="middle" fill="#1a1f3a" font-size="18" font-weight="600">Cost Savings</text>
+                                    <rect x="50" y="150" width="80" height="120" fill="#ff6b6b" opacity="0.8" />
+                                    <text x="90" y="285" text-anchor="middle" fill="#1a1f3a"
+                                        font-size="14">Before</text>
+                                    <rect x="220" y="220" width="80" height="50" fill="#00d4ff" opacity="0.8" />
+                                    <text x="260" y="285" text-anchor="middle" fill="#1a1f3a"
+                                        font-size="14">After</text>
+                                    <text x="175" y="50" text-anchor="middle" fill="#1a1f3a" font-size="18"
+                                        font-weight="600">Cost Savings</text>
                                 </svg>
                             </div>
                         </div>
@@ -158,24 +265,29 @@
                     <div class="hero-content">
                         <div class="hero-text">
                             <span class="hero-badge">Complete Partnership</span>
-                            <h1 class="hero-title">End-to-End Assistance, Not Just Tools</h1>
-                            <p class="hero-subtitle">From planning to production—we're your DevOps partner providing complete infrastructure assistance and ongoing support.</p>
+                            <h1 class="hero-title">From Dev to Production — We Handle It All.</h1>
+                            <p class="hero-subtitle">AWS, Tencent, Oracle, DigitalOcean, GitHub Actions — we deploy on
+                                your preferred platform. Startups to enterprises, minimal budget or complex scale, every
+                                project gets expert-level care.</p>
                             <div class="hero-features">
                                 <div class="feature-item">
-                                    <svg width="24" height="24" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    <svg width="24" height="24" fill="none" stroke="#00d4ff" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     <span>Strategic Planning</span>
                                 </div>
                                 <div class="feature-item">
-                                    <svg width="24" height="24" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    <svg width="24" height="24" fill="none" stroke="#00d4ff" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     <span>Cost Optimization</span>
                                 </div>
                                 <div class="feature-item">
-                                    <svg width="24" height="24" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    <svg width="24" height="24" fill="none" stroke="#00d4ff" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     <span>Ongoing Support</span>
                                 </div>
@@ -188,10 +300,13 @@
                         <div class="hero-visual">
                             <div class="partnership-icon">
                                 <svg width="350" height="300" viewBox="0 0 350 300">
-                                    <circle cx="175" cy="150" r="100" stroke="#00d4ff" stroke-width="3" fill="none" opacity="0.3"/>
-                                    <circle cx="175" cy="150" r="70" stroke="#00d4ff" stroke-width="3" fill="none" opacity="0.5"/>
-                                    <circle cx="175" cy="150" r="40" fill="#00d4ff" opacity="0.8"/>
-                                    <path d="M 150 130 Q 175 110 200 130 L 200 170 Q 175 190 150 170 Z" fill="#1a1f3a"/>
+                                    <circle cx="175" cy="150" r="100" stroke="#00d4ff" stroke-width="3" fill="none"
+                                        opacity="0.3" />
+                                    <circle cx="175" cy="150" r="70" stroke="#00d4ff" stroke-width="3" fill="none"
+                                        opacity="0.5" />
+                                    <circle cx="175" cy="150" r="40" fill="#00d4ff" opacity="0.8" />
+                                    <path d="M 150 130 Q 175 110 200 130 L 200 170 Q 175 190 150 170 Z"
+                                        fill="#1a1f3a" />
                                 </svg>
                             </div>
                         </div>
@@ -203,7 +318,7 @@
             <div class="carousel-controls">
                 <button class="carousel-btn prev" id="prevBtn">
                     <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M15 19l-7-7 7-7"/>
+                        <path d="M15 19l-7-7 7-7" />
                     </svg>
                 </button>
                 <div class="carousel-indicators" id="carouselIndicators">
@@ -214,7 +329,7 @@
                 </div>
                 <button class="carousel-btn next" id="nextBtn">
                     <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M9 5l7 7-7 7"/>
+                        <path d="M9 5l7 7-7 7" />
                     </svg>
                 </button>
             </div>
@@ -233,12 +348,14 @@
                 <div class="service-card">
                     <div class="service-icon">
                         <svg width="48" height="48" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
-                            <path d="M9 12h6m-6 4h6"/>
+                            <path
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                            <path d="M9 12h6m-6 4h6" />
                         </svg>
                     </div>
                     <h3 class="service-title">Custom Infrastructure Planning</h3>
-                    <p class="service-description">We don't just deploy—we design infrastructure strategies tailored to your business goals, team capabilities, and budget constraints.</p>
+                    <p class="service-description">We don't just deploy—we design infrastructure strategies tailored to
+                        your business goals, team capabilities, and budget constraints.</p>
                     <ul class="service-features">
                         <li>Architecture design & consultation</li>
                         <li>Technology stack selection</li>
@@ -251,12 +368,14 @@
                 <div class="service-card">
                     <div class="service-icon">
                         <svg width="48" height="48" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
-                            <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <path
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                            <path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
                     <h3 class="service-title">Cost Optimization & FinOps</h3>
-                    <p class="service-description">Every decision considers cost implications. We help you build efficient systems that save money without compromising performance.</p>
+                    <p class="service-description">Every decision considers cost implications. We help you build
+                        efficient systems that save money without compromising performance.</p>
                     <ul class="service-features">
                         <li>Cloud cost analysis & reduction</li>
                         <li>Resource right-sizing</li>
@@ -269,11 +388,12 @@
                 <div class="service-card">
                     <div class="service-icon">
                         <svg width="48" height="48" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                     </div>
                     <h3 class="service-title">Efficient Solutions Development</h3>
-                    <p class="service-description">We focus on solutions that are both economical and efficient, balancing performance with practical resource usage.</p>
+                    <p class="service-description">We focus on solutions that are both economical and efficient,
+                        balancing performance with practical resource usage.</p>
                     <ul class="service-features">
                         <li>CI/CD pipeline setup</li>
                         <li>Container orchestration</li>
@@ -286,16 +406,40 @@
                 <div class="service-card">
                     <div class="service-icon">
                         <svg width="48" height="48" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                            <path
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                         </svg>
                     </div>
                     <h3 class="service-title">Development to Production</h3>
-                    <p class="service-description">Complete assistance throughout your software lifecycle, with cost optimization at every stage from dev to prod.</p>
+                    <p class="service-description">Complete assistance throughout your software lifecycle, with cost
+                        optimization at every stage from dev to prod.</p>
                     <ul class="service-features">
                         <li>Environment setup & management</li>
                         <li>Deployment automation</li>
                         <li>Monitoring & alerting</li>
                         <li>Incident response planning</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 - AI Model Deployment -->
+                <div class="service-card"
+                    style="border-color: rgba(0,212,255,0.4); background: linear-gradient(135deg, rgba(0,212,255,0.05), rgba(102,126,234,0.05));">
+                    <div class="service-icon">
+                        <svg width="48" height="48" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
+                            <path
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Model Deployment <span
+                            style="font-size:0.7em; color:#00d4ff; background:rgba(0,212,255,0.15); padding:2px 8px; border-radius:20px; margin-left:6px;">NEW</span>
+                    </h3>
+                    <p class="service-description">Deploying an AI or ML model? We handle the infrastructure — from
+                        containerizing your model to scalable, cost-efficient serving endpoints on any cloud.</p>
+                    <ul class="service-features">
+                        <li>Model containerization (Docker)</li>
+                        <li>Scalable inference endpoints</li>
+                        <li>GPU / CPU instance optimization</li>
+                        <li>AWS, Oracle, DigitalOcean, Tencent</li>
                     </ul>
                 </div>
             </div>
@@ -307,7 +451,8 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">DevOps Packages</h2>
-                <p class="section-subtitle">Transparent pricing. DevOps quoted separately per project. Choose the engagement that fits your scope.</p>
+                <p class="section-subtitle">Transparent pricing. DevOps quoted separately per project. Choose the
+                    engagement that fits your scope.</p>
             </div>
             <div class="packages-grid">
                 <!-- Starter Package -->
@@ -325,7 +470,8 @@
                         <li>Documentation & handover</li>
                     </ul>
                     <p class="package-note">One-time delivery. 50% advance, 50% on deployment.</p>
-                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline package-cta" target="_blank">Schedule Consultation</a>
+                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline package-cta"
+                        target="_blank">Schedule Consultation</a>
                 </div>
 
                 <!-- Professional Package -->
@@ -346,7 +492,8 @@
                         <li>Backup & rollback strategy</li>
                     </ul>
                     <p class="package-note">Milestone-based payment. Clear stages, agreed before start.</p>
-                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-primary package-cta" target="_blank">Schedule Consultation</a>
+                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-primary package-cta"
+                        target="_blank">Schedule Consultation</a>
                 </div>
 
                 <!-- Enterprise Package -->
@@ -364,7 +511,8 @@
                         <li>Optional SLA-based support (separate)</li>
                     </ul>
                     <p class="package-note">Custom payment structure. Ongoing maintenance available separately.</p>
-                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline package-cta" target="_blank">Schedule Consultation</a>
+                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline package-cta"
+                        target="_blank">Schedule Consultation</a>
                 </div>
 
                 <!-- Custom Solution -->
@@ -380,10 +528,56 @@
                         <li>Maintenance & retainer agreements</li>
                     </ul>
                     <p class="package-note">Pricing based on complexity, stack, and requirements.</p>
-                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline package-cta" target="_blank">Schedule Consultation</a>
+                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline package-cta"
+                        target="_blank">Schedule Consultation</a>
                 </div>
             </div>
-            <p class="packages-disclaimer">All DevOps work is billed separately from development. Exact pricing after reviewing your stack, scale, and environments.</p>
+            <p class="packages-disclaimer">All DevOps work is billed separately from development. Exact pricing after
+                reviewing your stack, scale, and environments.</p>
+        </div>
+    </section>
+
+    <!-- Tech Stack / Platforms Section -->
+    <section class="stats-section" id="platforms"
+        style="padding: 40px 0; background: linear-gradient(135deg, rgba(0,212,255,0.03), rgba(102,126,234,0.03));">
+        <div class="container">
+            <div class="section-header" style="margin-bottom: 24px;">
+                <h2 class="section-title" style="font-size: 1.5rem;">Platforms We Specialize In</h2>
+                <p class="section-subtitle">We deploy on the cloud that fits your project — not just the most popular
+                    one</p>
+            </div>
+            <div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 16px;">
+                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 8px;">☁️</div>
+                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">AWS</div>
+                    <div class="stat-source">(Amazon Web Services)</div>
+                </div>
+                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 8px;">🐉</div>
+                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">Tencent Cloud</div>
+                    <div class="stat-source">(Asia & Global CDN)</div>
+                </div>
+                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 8px;">🔮</div>
+                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">Oracle Cloud</div>
+                    <div class="stat-source">(OCI — Free Tier Experts)</div>
+                </div>
+                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 8px;">🌊</div>
+                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">DigitalOcean</div>
+                    <div class="stat-source">(Cost-Effective Infra)</div>
+                </div>
+                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 8px;">⚙️</div>
+                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">GitHub Actions</div>
+                    <div class="stat-source">(CI/CD Automation)</div>
+                </div>
+                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 8px;">🐳</div>
+                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">Docker / K8s</div>
+                    <div class="stat-source">(Container Specialists)</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -399,66 +593,78 @@
                 <div class="why-card">
                     <div class="why-icon">
                         <svg width="56" height="56" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            <path
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                     </div>
                     <h3>Strategic Planning Beyond Automation</h3>
-                    <p>AI generates configurations; we design infrastructure strategies aligned with your business goals, compliance requirements, and team capabilities.</p>
+                    <p>AI generates configurations; we design infrastructure strategies aligned with your business
+                        goals, compliance requirements, and team capabilities.</p>
                 </div>
 
                 <!-- Reason 2 -->
                 <div class="why-card">
                     <div class="why-icon">
                         <svg width="56" height="56" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                            <path
+                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                         </svg>
                     </div>
                     <h3>Cost-Conscious Architecture</h3>
-                    <p>Every architectural decision considers cost implications. We help clients save 40-60% on cloud costs through intelligent planning and resource optimization.</p>
+                    <p>Every architectural decision considers cost implications. We help clients save 40-60% on cloud
+                        costs through intelligent planning and resource optimization.</p>
                 </div>
 
                 <!-- Reason 3 -->
                 <div class="why-card">
                     <div class="why-icon">
                         <svg width="56" height="56" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            <path
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
                     </div>
                     <h3>Business Context Understanding</h3>
-                    <p>We understand your business context, compliance needs, and organizational constraints—something AI tools simply can't replicate.</p>
+                    <p>We understand your business context, compliance needs, and organizational constraints—something
+                        AI tools simply can't replicate.</p>
                 </div>
 
                 <!-- Reason 4 -->
                 <div class="why-card">
                     <div class="why-icon">
                         <svg width="56" height="56" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+                            <path
+                                d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
                         </svg>
                     </div>
                     <h3>Adaptive Problem Solving</h3>
-                    <p>When unexpected challenges arise, we provide creative solutions and workarounds that AI tools can't anticipate or handle.</p>
+                    <p>When unexpected challenges arise, we provide creative solutions and workarounds that AI tools
+                        can't anticipate or handle.</p>
                 </div>
 
                 <!-- Reason 5 -->
                 <div class="why-card">
                     <div class="why-icon">
                         <svg width="56" height="56" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                            <path
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                         </svg>
                     </div>
                     <h3>Knowledge Transfer & Empowerment</h3>
-                    <p>We don't just implement—we empower your team with understanding and best practices, ensuring long-term success.</p>
+                    <p>We don't just implement—we empower your team with understanding and best practices, ensuring
+                        long-term success.</p>
                 </div>
 
                 <!-- Reason 6 -->
                 <div class="why-card">
                     <div class="why-icon">
                         <svg width="56" height="56" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            <path
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                     </div>
                     <h3>Security & Compliance First</h3>
-                    <p>We ensure your infrastructure meets security standards and compliance requirements specific to your industry and region.</p>
+                    <p>We ensure your infrastructure meets security standards and compliance requirements specific to
+                        your industry and region.</p>
                 </div>
             </div>
         </div>
@@ -492,6 +698,60 @@
         </div>
     </section>
 
+    <!-- Small Budget / Freelancer Section -->
+    <section
+        style="padding: 60px 0; background: linear-gradient(135deg, rgba(0,212,255,0.07) 0%, rgba(26,31,58,0.5) 100%);">
+        <div class="container">
+            <div
+                style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between;">
+                <div style="flex: 1; min-width: 280px;">
+                    <span class="hero-badge" style="display: inline-block; margin-bottom: 16px;">For Every Budget</span>
+                    <h2
+                        style="font-size: 2rem; font-weight: 700; color: #e8eaf6; margin-bottom: 16px; line-height: 1.3;">
+                        Small Budget? Minimal Project?<br><span style="color: #00d4ff;">Still Reach Out.</span></h2>
+                    <p style="color: #a0aec0; font-size: 1.05rem; margin-bottom: 20px; line-height: 1.7;">You don't need
+                        an enterprise budget to get expert DevOps help. Whether you're a freelancer setting up a
+                        client's server, an agency needing a CI/CD pipeline for one project, or a solo developer
+                        deploying your first AI model — <strong style="color: #e8eaf6;">we'll give you a honest quote
+                            that fits your scope.</strong></p>
+                    <ul
+                        style="color: #a0aec0; list-style: none; padding: 0; margin-bottom: 24px; display: flex; flex-direction: column; gap: 10px;">
+                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Solo developers & freelancers
+                                welcome</span></li>
+                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Agencies with 1-off project
+                                needs</span></li>
+                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Startups needing minimal
+                                viable infrastructure</span></li>
+                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Anyone deploying an AI/ML
+                                model for the first time</span></li>
+                    </ul>
+                    <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                        <a href="https://wa.me/923036858751" class="btn btn-primary" target="_blank">Get a Free Quote on
+                            WhatsApp</a>
+                        <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-secondary"
+                            target="_blank">Book a 30-Min Call</a>
+                    </div>
+                </div>
+                <div
+                    style="flex: 1; min-width: 260px; background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.2); border-radius: 16px; padding: 28px;">
+                    <h3 style="color: #00d4ff; font-size: 1.1rem; margin-bottom: 20px;">📋 What to Send Us</h3>
+                    <ol
+                        style="color: #a0aec0; padding-left: 20px; display: flex; flex-direction: column; gap: 12px; line-height: 1.6;">
+                        <li>Your <strong style="color: #e8eaf6;">project type</strong> (web app, API, AI model, etc.)
+                        </li>
+                        <li>Your <strong style="color: #e8eaf6;">preferred platform</strong> (AWS, DigitalOcean, Oracle,
+                            etc.) or ask us to recommend</li>
+                        <li>Your <strong style="color: #e8eaf6;">rough budget</strong> or just say "minimal"</li>
+                        <li>What you need: <strong style="color: #e8eaf6;">one-off setup, CI/CD, or ongoing
+                                help</strong></li>
+                    </ol>
+                    <p style="color: #718096; margin-top: 16px; font-size: 0.9rem;">That's it. We'll respond with a
+                        clear quote — no fluff, no hidden costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Blog Section -->
     <section class="blog-section" id="blog">
         <div class="container">
@@ -503,20 +763,25 @@
                 <!-- Blog Post 1 -->
                 <div class="blog-card featured">
                     <div class="blog-image">
-                        <div class="blog-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="blog-placeholder"
+                            style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
                             <svg width="80" height="80" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
-                                <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <path
+                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
                     </div>
                     <div class="blog-content">
                         <span class="blog-category">Cost Optimization</span>
                         <h3 class="blog-title">The Hidden Costs of DIY DevOps with AI Tools</h3>
-                        <p class="blog-excerpt">AI tools like GitHub Copilot are excellent for code generation, but infrastructure planning requires understanding cost implications, security compliance, and scalability. Learn why 69% of organizations exceed their cloud budgets.</p>
+                        <p class="blog-excerpt">AI tools like GitHub Copilot are excellent for code generation, but
+                            infrastructure planning requires understanding cost implications, security compliance, and
+                            scalability. Learn why 69% of organizations exceed their cloud budgets.</p>
                         <div class="blog-meta">
                             <span class="read-time">
-                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 8 min read
                             </span>
@@ -528,20 +793,25 @@
                 <!-- Blog Post 2 -->
                 <div class="blog-card">
                     <div class="blog-image">
-                        <div class="blog-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="blog-placeholder"
+                            style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
                             <svg width="60" height="60" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
-                                <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                <path
+                                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                             </svg>
                         </div>
                     </div>
                     <div class="blog-content">
                         <span class="blog-category">Security</span>
                         <h3 class="blog-title">Real Cost of Cloud Misconfigurations: Case Studies</h3>
-                        <p class="blog-excerpt">Explore real-world scenarios where cloud misconfigurations cost companies millions. Learn from case studies and discover how proper DevOps planning prevents costly breaches.</p>
+                        <p class="blog-excerpt">Explore real-world scenarios where cloud misconfigurations cost
+                            companies millions. Learn from case studies and discover how proper DevOps planning prevents
+                            costly breaches.</p>
                         <div class="blog-meta">
                             <span class="read-time">
-                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 10 min read
                             </span>
@@ -553,20 +823,25 @@
                 <!-- Blog Post 3 -->
                 <div class="blog-card">
                     <div class="blog-image">
-                        <div class="blog-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="blog-placeholder"
+                            style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                             <svg width="60" height="60" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
-                                <path d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                <path
+                                    d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
                         </div>
                     </div>
                     <div class="blog-content">
                         <span class="blog-category">ROI Analysis</span>
                         <h3 class="blog-title">DevOps ROI: Why Professional Services Pay for Themselves</h3>
-                        <p class="blog-excerpt">Discover how professional DevOps services deliver 340% ROI over 3 years through cost savings, productivity gains, and reduced downtime. Real numbers from industry reports.</p>
+                        <p class="blog-excerpt">Discover how professional DevOps services deliver 340% ROI over 3 years
+                            through cost savings, productivity gains, and reduced downtime. Real numbers from industry
+                            reports.</p>
                         <div class="blog-meta">
                             <span class="read-time">
-                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 9 min read
                             </span>
@@ -578,20 +853,24 @@
                 <!-- Blog Post 4 -->
                 <div class="blog-card">
                     <div class="blog-image">
-                        <div class="blog-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div class="blog-placeholder"
+                            style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
                             <svg width="60" height="60" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
-                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                         </div>
                     </div>
                     <div class="blog-content">
                         <span class="blog-category">AI & DevOps</span>
                         <h3 class="blog-title">AI in DevOps: Where It Helps and Where Humans Win</h3>
-                        <p class="blog-excerpt">A balanced perspective on AI's role in DevOps. While 91% of teams use AI tools, 87% still prioritize human expertise for critical infrastructure decisions. Here's why.</p>
+                        <p class="blog-excerpt">A balanced perspective on AI's role in DevOps. While 91% of teams use AI
+                            tools, 87% still prioritize human expertise for critical infrastructure decisions. Here's
+                            why.</p>
                         <div class="blog-meta">
                             <span class="read-time">
-                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 12 min read
                             </span>
@@ -606,22 +885,111 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section style="padding: 80px 0; background: rgba(26,31,58,0.8);" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know before reaching out</p>
+            </div>
+            <div style="max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;">
+
+                <details
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;"
+                    open>
+                    <summary
+                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
+                        Why hire a DevOps expert instead of using AI tools like ChatGPT? <span
+                            style="color:#00d4ff;">＋</span></summary>
+                    <p style="color: #a0aec0; margin-top: 12px; line-height: 1.7;">AI tools generate <em>generic</em>
+                        configurations that don't account for your budget, compliance needs, or actual traffic patterns.
+                        The result? Over-provisioned servers, security gaps, and surprise bills. A DevOps expert at
+                        Clottis designs infrastructure <strong style="color:#e8eaf6;">for your specific
+                            situation</strong> — and typically saves clients 40-60% on cloud costs from day one.</p>
+                </details>
+
+                <details
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
+                    <summary
+                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
+                        Do you work with small budgets, freelancers, or agencies? <span style="color:#00d4ff;">＋</span>
+                    </summary>
+                    <p style="color: #a0aec0; margin-top: 12px; line-height: 1.7;">Absolutely. We work with solo
+                        developers, freelancers, agencies, and startups — not just big companies. If you have a minimal
+                        project or a tight budget, send us a message on WhatsApp. We'll give you an honest, no-fluff
+                        quote based on what you actually need.</p>
+                </details>
+
+                <details
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
+                    <summary
+                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
+                        Can you deploy AI or machine learning models? <span style="color:#00d4ff;">＋</span></summary>
+                    <p style="color: #a0aec0; margin-top: 12px; line-height: 1.7;">Yes — AI model deployment is one of
+                        our core services. We containerize your model, set up scalable inference endpoints, and optimize
+                        for cost (GPU vs CPU tradeoffs). We deploy on AWS, Oracle Cloud, DigitalOcean, and Tencent Cloud
+                        depending on your requirements and budget.</p>
+                </details>
+
+                <details
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
+                    <summary
+                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
+                        Which cloud platforms do you specialize in? <span style="color:#00d4ff;">＋</span></summary>
+                    <p style="color: #a0aec0; margin-top: 12px; line-height: 1.7;">We specialize in <strong
+                            style="color:#e8eaf6;">AWS, Tencent Cloud, Oracle Cloud (OCI), DigitalOcean, and GitHub
+                            Actions</strong>. We recommend the right platform based on your project's cost requirements,
+                        team location, and scale — not just popularity.</p>
+                </details>
+
+                <details
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
+                    <summary
+                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
+                        How long does a DevOps setup take? <span style="color:#00d4ff;">＋</span></summary>
+                    <p style="color: #a0aec0; margin-top: 12px; line-height: 1.7;">A <strong
+                            style="color:#e8eaf6;">Starter package</strong> (basic CI/CD + one environment) typically
+                        takes 1-2 weeks. A <strong style="color:#e8eaf6;">Professional setup</strong> (Dev, Staging,
+                        Prod + monitoring) takes 2-4 weeks. Timelines are confirmed after a free consultation call where
+                        we review your stack and requirements.</p>
+                </details>
+
+                <details
+                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
+                    <summary
+                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
+                        Is there ongoing support after the project is delivered? <span style="color:#00d4ff;">＋</span>
+                    </summary>
+                    <p style="color: #a0aec0; margin-top: 12px; line-height: 1.7;">Yes. We offer optional SLA-based
+                        support retainers and maintenance agreements after delivery. Every project also includes
+                        documentation and a handover session so your team is never left in the dark.</p>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="cta-section" id="contact">
         <div class="container">
             <div class="cta-content">
-                <h2 class="cta-title">Ready to Optimize Your Infrastructure?</h2>
-                <p class="cta-subtitle">Let's discuss your project and create a cost-efficient DevOps strategy tailored to your business.</p>
+                <h2 class="cta-title">Your Cloud Budget Is Leaking. Let's Fix It.</h2>
+                <p class="cta-subtitle">Free consultation for all project sizes. Minimal budget or enterprise scale —
+                    tell us what you need and we'll give you an honest quote.</p>
                 <div class="cta-buttons">
                     <a href="https://wa.me/923036858751" class="btn btn-primary btn-large" target="_blank">
                         <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                         </svg>
                         Chat on WhatsApp
                     </a>
-                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline btn-large" target="_blank">
-                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                            <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-outline btn-large"
+                        target="_blank">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
                         Schedule a Call
                     </a>
@@ -636,7 +1004,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3 class="footer-logo">Clottis</h3>
-                    <p class="footer-description">Professional DevOps solutions with strategic planning and cost optimization. Your partner from development to production.</p>
+                    <p class="footer-description">Professional DevOps solutions with strategic planning and cost
+                        optimization. Your partner from development to production.</p>
                 </div>
                 <div class="footer-section">
                     <h4 class="footer-title">Services</h4>
@@ -644,6 +1013,7 @@
                         <li><a href="#services">Infrastructure Planning</a></li>
                         <li><a href="#services">Cost Optimization</a></li>
                         <li><a href="#services">CI/CD Setup</a></li>
+                        <li><a href="#services">AI Model Deployment</a></li>
                         <li><a href="#services">Cloud Migration</a></li>
                     </ul>
                 </div>
@@ -654,6 +1024,7 @@
                         <li><a href="blog/hidden-costs-diy-devops.html">Cost Analysis</a></li>
                         <li><a href="blog/devops-roi-professional-services.html">Case Studies</a></li>
                         <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -673,4 +1044,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>

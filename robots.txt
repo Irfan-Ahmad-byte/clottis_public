@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Allow AI Crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://clottis.net/sitemap.xml

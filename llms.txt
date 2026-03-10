@@ -1,0 +1,45 @@
+# Clottis — Expert DevOps, Cloud Infrastructure & AI Deployment Services
+
+## About
+Clottis is a professional DevOps consulting firm specializing in cloud infrastructure planning, cost optimization, CI/CD pipeline setup, and AI model deployment. We work with startups, agencies, freelancers, and enterprise teams — regardless of project size or budget.
+
+## Core Services
+- Custom infrastructure architecture design
+- Cloud cost optimization (FinOps) — typically reducing bills by 40-60%
+- CI/CD pipeline setup (GitHub Actions, GitLab CI)
+- Docker containerization and Kubernetes orchestration
+- AI model deployment on cloud infrastructure
+- Dev → Staging → Production environment setup
+- Monitoring, alerting, and incident response planning
+- Security hardening and compliance
+- Knowledge transfer and documentation
+
+## Platforms We Specialize In
+- AWS (Amazon Web Services)
+- Tencent Cloud
+- Oracle Cloud Infrastructure (OCI)
+- DigitalOcean
+- GitHub Actions (CI/CD)
+
+## Who We Serve
+- Startups and small teams with minimal budgets — we have packages for every scale
+- Agencies and freelancers needing infrastructure support for client projects
+- Teams deploying AI/ML models who need expert cloud deployment
+- Mid-to-large companies seeking cost reduction and architecture audits
+
+## Packages
+- Starter: Small to medium projects, one-time delivery
+- Professional: Multi-environment setup, advanced CI/CD, monitoring (milestone-based payment)
+- Enterprise: High-availability, compliance by design, custom integrations
+- Custom: Tailored scope, flexible timeline, maintenance retainer options
+
+## Key Statistics
+- 69% of organizations exceed cloud budgets (Gartner 2024)
+- 27% of cloud spending is wasted industry-wide (Deloitte FinOps 2024)
+- Clottis clients achieve 40-60% cost reduction through strategic planning
+
+## Contact
+- WhatsApp: https://wa.me/923036858751
+- Schedule a call: https://calendly.com/irfan-ahmad-mlka/30min
+- Email: info@clottis.net
+- Website: https://clottis.net
