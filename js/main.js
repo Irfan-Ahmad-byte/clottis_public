@@ -4,6 +4,31 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // ============================================
+    // BREAKING BANNER
+    // ============================================
+    const breakingBanner = document.getElementById('breakingBanner');
+    const breakingClose = document.getElementById('breakingClose');
+
+    if (breakingBanner) {
+        // Check if user already dismissed it this session
+        if (sessionStorage.getItem('breakingBannerDismissed') === 'true') {
+            breakingBanner.classList.add('hidden');
+        } else {
+            document.body.classList.add('has-breaking-banner');
+        }
+
+        if (breakingClose) {
+            breakingClose.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                breakingBanner.classList.add('hidden');
+                document.body.classList.remove('has-breaking-banner');
+                sessionStorage.setItem('breakingBannerDismissed', 'true');
+            });
+        }
+    }
+
+    // ============================================
     // MOBILE MENU TOGGLE
     // ============================================
     const mobileMenuToggle = document.getElementById('mobileMenuToggle');
