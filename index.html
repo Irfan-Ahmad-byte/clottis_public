@@ -138,6 +138,7 @@
 
     <!-- Hero Carousel Section -->
     <section class="hero-carousel" id="home">
+        <canvas id="particleCanvas"></canvas>
         <div class="carousel-container">
             <!-- Slide 1: Human Expertise in AI Era -->
             <div class="carousel-slide active">
@@ -422,17 +423,14 @@
                 </div>
 
                 <!-- Service 5 - AI Model Deployment -->
-                <div class="service-card"
-                    style="border-color: rgba(0,212,255,0.4); background: linear-gradient(135deg, rgba(0,212,255,0.05), rgba(102,126,234,0.05));">
+                <div class="service-card featured">
                     <div class="service-icon">
                         <svg width="48" height="48" fill="none" stroke="#00d4ff" stroke-width="2" viewBox="0 0 24 24">
                             <path
                                 d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                         </svg>
                     </div>
-                    <h3 class="service-title">AI Model Deployment <span
-                            style="font-size:0.7em; color:#00d4ff; background:rgba(0,212,255,0.15); padding:2px 8px; border-radius:20px; margin-left:6px;">NEW</span>
-                    </h3>
+                    <h3 class="service-title">AI Model Deployment <span class="hero-badge" style="font-size:0.65em; padding:3px 10px; margin-left:6px; vertical-align: middle;">NEW</span></h3>
                     <p class="service-description">Deploying an AI or ML model? We handle the infrastructure — from
                         containerizing your model to scalable, cost-efficient serving endpoints on any cloud.</p>
                     <ul class="service-features">
@@ -538,44 +536,43 @@
     </section>
 
     <!-- Tech Stack / Platforms Section -->
-    <section class="stats-section" id="platforms"
-        style="padding: 40px 0; background: linear-gradient(135deg, rgba(0,212,255,0.03), rgba(102,126,234,0.03));">
+    <section class="platforms-section" id="platforms">
         <div class="container">
-            <div class="section-header" style="margin-bottom: 24px;">
-                <h2 class="section-title" style="font-size: 1.5rem;">Platforms We Specialize In</h2>
+            <div class="section-header">
+                <h2 class="section-title">Platforms We Specialize In</h2>
                 <p class="section-subtitle">We deploy on the cloud that fits your project — not just the most popular
                     one</p>
             </div>
-            <div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 16px;">
-                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
-                    <div style="font-size: 2rem; margin-bottom: 8px;">☁️</div>
-                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">AWS</div>
-                    <div class="stat-source">(Amazon Web Services)</div>
+            <div class="platforms-grid">
+                <div class="platform-card">
+                    <div class="platform-icon">☁️</div>
+                    <div class="platform-name">AWS</div>
+                    <div class="platform-desc">(Amazon Web Services)</div>
                 </div>
-                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
-                    <div style="font-size: 2rem; margin-bottom: 8px;">🐉</div>
-                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">Tencent Cloud</div>
-                    <div class="stat-source">(Asia & Global CDN)</div>
+                <div class="platform-card">
+                    <div class="platform-icon">🐉</div>
+                    <div class="platform-name">Tencent Cloud</div>
+                    <div class="platform-desc">(Asia &amp; Global CDN)</div>
                 </div>
-                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
-                    <div style="font-size: 2rem; margin-bottom: 8px;">🔮</div>
-                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">Oracle Cloud</div>
-                    <div class="stat-source">(OCI — Free Tier Experts)</div>
+                <div class="platform-card">
+                    <div class="platform-icon">🔮</div>
+                    <div class="platform-name">Oracle Cloud</div>
+                    <div class="platform-desc">(OCI — Free Tier Experts)</div>
                 </div>
-                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
-                    <div style="font-size: 2rem; margin-bottom: 8px;">🌊</div>
-                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">DigitalOcean</div>
-                    <div class="stat-source">(Cost-Effective Infra)</div>
+                <div class="platform-card">
+                    <div class="platform-icon">🌊</div>
+                    <div class="platform-name">DigitalOcean</div>
+                    <div class="platform-desc">(Cost-Effective Infra)</div>
                 </div>
-                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
-                    <div style="font-size: 2rem; margin-bottom: 8px;">⚙️</div>
-                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">GitHub Actions</div>
-                    <div class="stat-source">(CI/CD Automation)</div>
+                <div class="platform-card">
+                    <div class="platform-icon">⚙️</div>
+                    <div class="platform-name">GitHub Actions</div>
+                    <div class="platform-desc">(CI/CD Automation)</div>
                 </div>
-                <div class="stat-box" style="padding: 20px 12px; text-align: center;">
-                    <div style="font-size: 2rem; margin-bottom: 8px;">🐳</div>
-                    <div class="stat-label" style="font-weight: 700; color: #e8eaf6;">Docker / K8s</div>
-                    <div class="stat-source">(Container Specialists)</div>
+                <div class="platform-card">
+                    <div class="platform-icon">🐳</div>
+                    <div class="platform-name">Docker / K8s</div>
+                    <div class="platform-desc">(Container Specialists)</div>
                 </div>
             </div>
         </div>
@@ -699,57 +696,33 @@
     </section>
 
     <!-- Small Budget / Freelancer Section -->
-    <section style="padding: 60px 0; background: linear-gradient(135deg, rgba(0,212,255,0.08) 0%, #0d111c 100%);">
+    <section class="budget-section">
         <div class="container">
-            <div
-                style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between;">
-                <div style="flex: 1; min-width: 280px;">
-                    <span class="hero-badge"
-                        style="display: inline-block; margin-bottom: 16px; background-color: #00d4ff; color: #1a1f3a; border: none; padding: 6px 16px; font-weight: 700;">For
-                        Every Budget</span>
-                    <h2
-                        style="font-size: 2.2rem; font-weight: 800; color: #ffffff; margin-bottom: 16px; line-height: 1.2;">
-                        Small Budget? Minimal Project?<br><span
-                            style="color: #ffffff; text-decoration: underline cubic-bezier(.4,0,.2,1) 3px #00d4ff; text-underline-offset: 8px;">Still
-                            Reach Out.</span></h2>
-                    <p style="color: #e2e8f0; font-size: 1.05rem; margin-bottom: 20px; line-height: 1.7;">You don't need
-                        an enterprise budget to get expert DevOps help. Whether you're a freelancer setting up a
-                        client's server, an agency needing a CI/CD pipeline for one project, or a solo developer
-                        deploying your first AI model — <strong style="color: #ffffff;">we'll give you an honest quote
-                            that fits your scope.</strong></p>
-                    <ul
-                        style="color: #e2e8f0; list-style: none; padding: 0; margin-bottom: 24px; display: flex; flex-direction: column; gap: 10px;">
-                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Solo developers & freelancers
-                                welcome</span></li>
-                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Agencies with 1-off project
-                                needs</span></li>
-                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Startups needing minimal
-                                viable infrastructure</span></li>
-                        <li style="display: flex; align-items: center; gap: 10px;">✅ <span>Anyone deploying an AI/ML
-                                model for the first time</span></li>
+            <div class="budget-wrapper">
+                <div class="budget-text">
+                    <span class="hero-badge">For Every Budget</span>
+                    <h2>Small Budget? Minimal Project?<br><span>Still Reach Out.</span></h2>
+                    <p>You don't need an enterprise budget to get expert DevOps help. Whether you're a freelancer setting up a client's server, an agency needing a CI/CD pipeline for one project, or a solo developer deploying your first AI model — <strong>we'll give you an honest quote that fits your scope.</strong></p>
+                    <ul class="budget-list">
+                        <li><span class="check">✓</span> <span>Solo developers &amp; freelancers welcome</span></li>
+                        <li><span class="check">✓</span> <span>Agencies with 1-off project needs</span></li>
+                        <li><span class="check">✓</span> <span>Startups needing minimal viable infrastructure</span></li>
+                        <li><span class="check">✓</span> <span>Anyone deploying an AI/ML model for the first time</span></li>
                     </ul>
-                    <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                        <a href="https://wa.me/923036858751" class="btn btn-primary" target="_blank">Get a Free Quote on
-                            WhatsApp</a>
-                        <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-secondary"
-                            target="_blank">Book a 30-Min Call</a>
+                    <div class="budget-buttons">
+                        <a href="https://wa.me/923036858751" class="btn btn-primary" target="_blank">Get a Free Quote on WhatsApp</a>
+                        <a href="https://calendly.com/irfan-ahmad-mlka/30min" class="btn btn-secondary" target="_blank">Book a 30-Min Call</a>
                     </div>
                 </div>
-                <div
-                    style="flex: 1; min-width: 260px; background: rgba(255,255,255,0.05); border: 1px solid rgba(0,212,255,0.3); border-radius: 16px; padding: 28px;">
-                    <h3 style="color: #00d4ff; font-size: 1.1rem; margin-bottom: 20px;">📋 What to Send Us</h3>
-                    <ol
-                        style="color: #e2e8f0; padding-left: 20px; display: flex; flex-direction: column; gap: 12px; line-height: 1.6;">
-                        <li>Your <strong style="color: #ffffff;">project type</strong> (web app, API, AI model, etc.)
-                        </li>
-                        <li>Your <strong style="color: #ffffff;">preferred platform</strong> (AWS, DigitalOcean, Oracle,
-                            etc.) or ask us to recommend</li>
-                        <li>Your <strong style="color: #ffffff;">rough budget</strong> or just say "minimal"</li>
-                        <li>What you need: <strong style="color: #ffffff;">one-off setup, CI/CD, or ongoing
-                                help</strong></li>
+                <div class="budget-card">
+                    <h3>📋 What to Send Us</h3>
+                    <ol>
+                        <li>Your <strong>project type</strong> (web app, API, AI model, etc.)</li>
+                        <li>Your <strong>preferred platform</strong> (AWS, DigitalOcean, Oracle, etc.) or ask us to recommend</li>
+                        <li>Your <strong>rough budget</strong> or just say "minimal"</li>
+                        <li>What you need: <strong>one-off setup, CI/CD, or ongoing help</strong></li>
                     </ol>
-                    <p style="color: #94a3b8; margin-top: 16px; font-size: 0.9rem;">That's it. We'll respond with a
-                        clear quote — no fluff, no hidden costs.</p>
+                    <p class="budget-note">That's it. We'll respond with a clear quote — no fluff, no hidden costs.</p>
                 </div>
             </div>
         </div>
@@ -763,12 +736,40 @@
                 <p class="section-subtitle">Learn about DevOps best practices and cost optimization strategies</p>
             </div>
             <div class="blog-grid">
-                <!-- Blog Post 1 -->
+                <!-- FEATURED: Iran-US War Case Study -->
                 <div class="blog-card featured">
                     <div class="blog-image">
                         <div class="blog-placeholder"
+                            style="background: linear-gradient(135deg, #dc2626 0%, #1a1f3a 50%, #00d4ff 100%);">
+                            <div style="text-align:center;">
+                                <div style="font-size:3rem;">🎯☁️💥</div>
+                                <div style="color:white; font-weight:700; font-size:1.1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Case Study — April 2026</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Case Study — Breaking</span>
+                        <h3 class="blog-title">When Bombs Hit the Cloud: Iran-US War & Data Center Attacks</h3>
+                        <p class="blog-excerpt">Iranian drone strikes destroyed AWS & Oracle data centers in UAE and Bahrain — crashing SadaPay, e-commerce, and digital services across Pakistan. A deep-dive case study on what happened, why, and how to prevent it.</p>
+                        <div class="blog-meta">
+                            <span class="read-time">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                18 min read
+                            </span>
+                            <a href="blog/iran-us-war-cloud-infrastructure-case-study.html" class="blog-link">Read Case Study →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post: Hidden Costs of DIY DevOps -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder"
                             style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                            <svg width="80" height="80" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                            <svg width="60" height="60" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
                                 <path
                                     d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
@@ -778,8 +779,7 @@
                         <span class="blog-category">Cost Optimization</span>
                         <h3 class="blog-title">The Hidden Costs of DIY DevOps with AI Tools</h3>
                         <p class="blog-excerpt">AI tools like GitHub Copilot are excellent for code generation, but
-                            infrastructure planning requires understanding cost implications, security compliance, and
-                            scalability. Learn why 69% of organizations exceed their cloud budgets.</p>
+                            infrastructure planning requires understanding cost implications. Learn why 69% of organizations exceed their cloud budgets.</p>
                         <div class="blog-meta">
                             <span class="read-time">
                                 <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
@@ -889,83 +889,50 @@
     </section>
 
     <!-- FAQ Section -->
-    <section style="padding: 80px 0; background: rgba(26,31,58,0.8);" id="faq">
+    <section class="faq-section" id="faq">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
                 <p class="section-subtitle">Everything you need to know before reaching out</p>
             </div>
-            <div style="max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px;">
+            <div class="faq-container">
 
-                <details
-                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;"
-                    open>
-                    <summary
-                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
-                        Why hire a DevOps expert instead of using AI tools like ChatGPT? <span
-                            style="color:#00d4ff;">＋</span></summary>
-                    <p style="color: #e2e8f0; margin-top: 12px; line-height: 1.7;">AI tools generate <em>generic</em>
-                        configurations that don't account for your budget, compliance needs, or actual traffic patterns.
-                        The result? Over-provisioned servers, security gaps, and surprise bills. A DevOps expert at
-                        Clottis designs infrastructure <strong style="color:#e8eaf6;">for your specific
-                            situation</strong> — and typically saves clients 40-60% on cloud costs from day one.</p>
+                <details class="faq-item" open>
+                    <summary>
+                        Why hire a DevOps expert instead of using AI tools like ChatGPT? <span class="faq-toggle">＋</span></summary>
+                    <p>AI tools generate <em>generic</em> configurations that don't account for your budget, compliance needs, or actual traffic patterns. The result? Over-provisioned servers, security gaps, and surprise bills. A DevOps expert at Clottis designs infrastructure <strong>for your specific situation</strong> — and typically saves clients 40-60% on cloud costs from day one.</p>
                 </details>
 
-                <details
-                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
-                    <summary
-                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
-                        Do you work with small budgets, freelancers, or agencies? <span style="color:#00d4ff;">＋</span>
+                <details class="faq-item">
+                    <summary>
+                        Do you work with small budgets, freelancers, or agencies? <span class="faq-toggle">＋</span>
                     </summary>
-                    <p style="color: #e2e8f0; margin-top: 12px; line-height: 1.7;">Absolutely. We work with solo
-                        developers, freelancers, agencies, and startups — not just big companies. If you have a minimal
-                        project or a tight budget, send us a message on WhatsApp. We'll give you an honest, no-fluff
-                        quote based on what you actually need.</p>
+                    <p>Absolutely. We work with solo developers, freelancers, agencies, and startups — not just big companies. If you have a minimal project or a tight budget, send us a message on WhatsApp. We'll give you an honest, no-fluff quote based on what you actually need.</p>
                 </details>
 
-                <details
-                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
-                    <summary
-                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
-                        Can you deploy AI or machine learning models? <span style="color:#00d4ff;">＋</span></summary>
-                    <p style="color: #e2e8f0; margin-top: 12px; line-height: 1.7;">Yes — AI model deployment is one of
-                        our core services. We containerize your model, set up scalable inference endpoints, and optimize
-                        for cost (GPU vs CPU tradeoffs). We deploy on AWS, Oracle Cloud, DigitalOcean, and Tencent Cloud
-                        depending on your requirements and budget.</p>
+                <details class="faq-item">
+                    <summary>
+                        Can you deploy AI or machine learning models? <span class="faq-toggle">＋</span></summary>
+                    <p>Yes — AI model deployment is one of our core services. We containerize your model, set up scalable inference endpoints, and optimize for cost (GPU vs CPU tradeoffs). We deploy on AWS, Oracle Cloud, DigitalOcean, and Tencent Cloud depending on your requirements and budget.</p>
                 </details>
 
-                <details
-                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
-                    <summary
-                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
-                        Which cloud platforms do you specialize in? <span style="color:#00d4ff;">＋</span></summary>
-                    <p style="color: #e2e8f0; margin-top: 12px; line-height: 1.7;">We specialize in <strong
-                            style="color:#e8eaf6;">AWS, Tencent Cloud, Oracle Cloud (OCI), DigitalOcean, and GitHub
-                            Actions</strong>. We recommend the right platform based on your project's cost requirements,
-                        team location, and scale — not just popularity.</p>
+                <details class="faq-item">
+                    <summary>
+                        Which cloud platforms do you specialize in? <span class="faq-toggle">＋</span></summary>
+                    <p>We specialize in <strong>AWS, Tencent Cloud, Oracle Cloud (OCI), DigitalOcean, and GitHub Actions</strong>. We recommend the right platform based on your project's cost requirements, team location, and scale — not just popularity.</p>
                 </details>
 
-                <details
-                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
-                    <summary
-                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
-                        How long does a DevOps setup take? <span style="color:#00d4ff;">＋</span></summary>
-                    <p style="color: #e2e8f0; margin-top: 12px; line-height: 1.7;">A <strong
-                            style="color:#e8eaf6;">Starter package</strong> (basic CI/CD + one environment) typically
-                        takes 1-2 weeks. A <strong style="color:#e8eaf6;">Professional setup</strong> (Dev, Staging,
-                        Prod + monitoring) takes 2-4 weeks. Timelines are confirmed after a free consultation call where
-                        we review your stack and requirements.</p>
+                <details class="faq-item">
+                    <summary>
+                        How long does a DevOps setup take? <span class="faq-toggle">＋</span></summary>
+                    <p>A <strong>Starter package</strong> (basic CI/CD + one environment) typically takes 1-2 weeks. A <strong>Professional setup</strong> (Dev, Staging, Prod + monitoring) takes 2-4 weeks. Timelines are confirmed after a free consultation call where we review your stack and requirements.</p>
                 </details>
 
-                <details
-                    style="background: rgba(255,255,255,0.03); border: 1px solid rgba(0,212,255,0.15); border-radius: 12px; padding: 20px 24px; cursor: pointer;">
-                    <summary
-                        style="color: #e8eaf6; font-weight: 600; font-size: 1rem; list-style: none; display: flex; justify-content: space-between;">
-                        Is there ongoing support after the project is delivered? <span style="color:#00d4ff;">＋</span>
+                <details class="faq-item">
+                    <summary>
+                        Is there ongoing support after the project is delivered? <span class="faq-toggle">＋</span>
                     </summary>
-                    <p style="color: #e2e8f0; margin-top: 12px; line-height: 1.7;">Yes. We offer optional SLA-based
-                        support retainers and maintenance agreements after delivery. Every project also includes
-                        documentation and a handover session so your team is never left in the dark.</p>
+                    <p>Yes. We offer optional SLA-based support retainers and maintenance agreements after delivery. Every project also includes documentation and a handover session so your team is never left in the dark.</p>
                 </details>
 
             </div>
